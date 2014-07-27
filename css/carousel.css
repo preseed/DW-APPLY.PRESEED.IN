@@ -39,7 +39,7 @@ font-family: 'Montserrat', sans-serif;
 /* Carousel base class */
 .carousel {
   height: 660px;
-  margin-bottom: 60px;
+ 
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -147,13 +147,26 @@ font-family: 'Montserrat', sans-serif;
   }
 }
 /*additionalcss*/
+.len{
+width:10%;
+margin-top:45px;
+float:left;
 
+}
+.zin{
+  background:url('pa4.jpg'),#444444;
+
+  background-blend-mode:multiply;
+-webkit-background-size: cover;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
 .blurme {
   
- background-image: url(app.jpg);
+ 
  background-repeat: no-repeat;
- background-size: 100% 100%;
-  background-color: rgba(0,0,0,0.8);
+ 
+  background:radial-gradient(0deg,#009999,#004444);
   background-blend-mode: multiply;
 
 
@@ -223,4 +236,20 @@ font-family: 'Montserrat', sans-serif;
   border-left:5px solid  rgb(251,127,27);
   border-bottom:5px solid rgb(251,127,27);
 }
+.sample#nabokov h1.first {
+      float: left;
+      padding: 200px 0 0 0;
+      margin: 0 0 -10px 0;
+      width: 142px; }
+    .sample#nabokov h1.second {
+      border-left: 8px solid #242526;
+      float: left;
+      margin: 0 0 -10px 0;
+      padding: 200px 0 0 25px;
+      width: auto; }
+    .sample#nabokov h1.third {
+      clear: both;
+      font-style: normal;
+      font-weight: 900;
+      margin: 0 0 0 172px; }
 /*cssends*/
