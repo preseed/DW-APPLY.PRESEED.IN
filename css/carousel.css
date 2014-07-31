@@ -8,7 +8,10 @@ body {
 font-family: 'Montserrat', sans-serif;
 }
 
-
+.fon{
+    font-family: 'Lobster', cursive;
+    color: #fff200;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -45,11 +48,20 @@ font-family: 'Montserrat', sans-serif;
 .carousel-caption {
   z-index: 10;
 }
+.ci{
+   height: 220px;
+   background:#990000;
+}
 
+.ci .item{
+  height:220px;
+  width:100%;
+}
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 660px;
-  background-color:;
+  width:100%;
+  
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -147,6 +159,27 @@ font-family: 'Montserrat', sans-serif;
   }
 }
 /*additionalcss*/
+#box{
+  width:150px;
+  height:150px;
+  background:#fff200;
+  border:1px solid #000;
+  text-align:center;
+ 
+    position: fixed;
+  margin-left:-75px;
+  margin-top:-75px;
+  left:50%;
+  top:50%;
+  z-index:20;
+  display:none;
+}
+#screen{
+  position:absolute;
+  left:0;
+  top:0;
+  background:#000;
+}
 .len{
 width:10%;
 margin-top:45px;
@@ -160,6 +193,13 @@ float:left;
 -webkit-background-size: cover;
 background-repeat: no-repeat;
 background-size: 100% 100%;
+}
+.cir{
+  width:50px;
+  height:50px;
+  background: #fff200;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 .blurme {
   
@@ -252,4 +292,16 @@ background-size: 100% 100%;
       font-style: normal;
       font-weight: 900;
       margin: 0 0 0 172px; }
+      .ani{
+  -webkit-animation: myan 3s infinite;
+}
+@-webkit-keyframes myan{
+  0%{
+    opacity:1;
+  }
+  50%{
+    opacity:0;
+  }
+  100%{opacity:1;}
+}
 /*cssends*/
