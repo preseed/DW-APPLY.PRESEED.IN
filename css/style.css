@@ -171,6 +171,9 @@ background:url(../apply-3.jpg) no-repeat center;
   .sm-links {
     position: absolute;
   }
+  #main_img_handle {
+    padding-top: 5%;
+  }
 }
 @media (max-width: 767px) {
   .logo > img {
@@ -182,5 +185,12 @@ background:url(../apply-3.jpg) no-repeat center;
   }
   .sm-links {
     position: relative;
+  }
+  .text_handling{
+    padding-right: 10px; 
+    padding-left: 10px;
+  }
+  .img_handling{
+    font-size: 40px !important;
   }
 }
