@@ -1,5 +1,4 @@
-ecell
+Apply
 =====
 
 Application Central sudomain content
-(earlier apply.preseed.in)
